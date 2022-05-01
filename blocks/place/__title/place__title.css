@@ -24,11 +24,12 @@
         line-height: 109%;
         row-gap: 32px;
         align-items: start;
+        margin: 0 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__title {
-        margin: 0 16px;
+        
     }
 }
