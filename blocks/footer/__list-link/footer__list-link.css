@@ -1,0 +1,9 @@
+.footer__list-link {
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+.footer__list-link:hover {
+    opacity: 0.8;
+    transition: opacity .5s ease;
+}
