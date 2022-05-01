@@ -5,9 +5,16 @@
     align-self: start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__image {
         grid-row: 3;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        
     }
     
 }

@@ -23,6 +23,16 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .footer {
+        max-width: 100%;
+        min-height: 310px;
+        flex-direction: column;
+        margin-left: 16px;
+        align-items: flex-start;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer {
         max-width: 186px;

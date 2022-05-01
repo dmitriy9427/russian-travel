@@ -17,10 +17,17 @@
 
 }
 
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        max-width: 100%;
+        margin: 0 auto 25px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__paragraph {
         max-width: 288px;
-        margin: 0 auto 25px;
+        
     }
     
 }
