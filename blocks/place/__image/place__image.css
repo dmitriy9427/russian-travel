@@ -9,15 +9,11 @@
     .place__image {
         grid-row: 3;
         margin: 0 auto;
-        max-width: ;
     }
 
 }
 
 @media screen and (max-width: 320px) {
-    .place__image {
-        
-    }
-    
-}
+    .place__image {}
 
+}
