@@ -6,6 +6,7 @@
     grid-row: 2;
     grid-column: 2;
 }
+
 .place__paragraph:last-child {
     margin-bottom: 0;
 }
@@ -20,14 +21,14 @@
 @media screen and (max-width: 767px) {
     .place__paragraph {
         max-width: 100%;
-        margin: 0 auto 25px;
+        margin: 0 16px 25px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
         max-width: 288px;
-        
+
     }
-    
+
 }

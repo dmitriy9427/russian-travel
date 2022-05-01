@@ -9,6 +9,7 @@
     .place__image {
         grid-row: 3;
         margin: 0 auto;
+        max-width: 100%;
     }
 
 }
