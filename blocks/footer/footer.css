@@ -1,13 +1,12 @@
 .footer {
     max-width: 1184px;
-    width: calc(100% - 96px);
+    max-width: calc(100% - 96px);
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
     margin: 0 auto;
     padding-bottom: 24px;
-   
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,7 +18,7 @@
 @media screen and (max-width: 768px) {
     .footer {
         max-width: 720px;
-        width: calc(100% - 48px);
+        max-width: calc(100% - 48px);
     }
 }
 
@@ -36,9 +35,5 @@
 @media screen and (max-width: 320px) {
     .footer {
         max-width: 186px;
-        min-height: 310px;
-        flex-direction: column;
-        margin-left: 16px;
-        align-items: flex-start;
     }
 }

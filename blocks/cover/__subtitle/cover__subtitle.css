@@ -10,7 +10,6 @@
     z-index: 1;
     justify-self: center;
     padding-top: 32px;
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -31,8 +30,5 @@
         max-width: 288px;
         font-size: 14px;
         line-height: 114%;
-        
-
     }
-
 }

@@ -8,10 +8,6 @@
     text-align: center;
     z-index: 2;
     color: #FFFFFF;
-    
-   
-    
-
 }
 
 @media screen and (max-width: 767px) {
@@ -24,10 +20,8 @@
 }
 
 @media screen and (max-width: 320px) {
-    .cover__title{
+    .cover__title {
         font-size: 32px;
         max-width: 288px;
-        
     }
-    
 }

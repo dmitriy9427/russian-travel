@@ -8,12 +8,12 @@
     align-items: flex-end;
     justify-content: space-between;
 }
+
 @media screen and (max-width: 1024px) {
     .header {
         max-width: 928px;
         margin-bottom: 48px;
     }
-    
 }
 
 @media screen and (max-width: 768px) {

@@ -7,7 +7,6 @@
     grid-column: 1;
     grid-row: 1;
     align-items: end;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -30,6 +29,6 @@
 
 @media screen and (max-width: 320px) {
     .place__title {
-        
+        max-width: 288px;
     }
 }
