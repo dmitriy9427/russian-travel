@@ -5,7 +5,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover {
         width: 100%;
         max-width: 1024px;
@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover {
         width: 100%;
         max-width: 768px;
@@ -23,12 +23,6 @@
 }
 
 @media screen and (max-width: 767px) {
-    .cover {
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 320px) {
     .cover {
         max-width: 320px;
         min-height: 200px;

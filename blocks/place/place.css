@@ -8,7 +8,7 @@
     align-items: end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .place {
         max-width: 928px;
         grid-template-columns: 440px 1fr;
@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place {
         max-width: 720px;
         grid-template-columns: 340px 1fr;
@@ -29,15 +29,8 @@
     .place {
         grid-template-columns: 1fr;
         row-gap: 32px;
-        margin-top: 64px;
-        justify-self: start;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place {
-        max-width: 320px;
-        grid-template-columns: 1fr;
         margin-top: 50px;
+        justify-self: start;
+        max-width: 320px;
     }
 }

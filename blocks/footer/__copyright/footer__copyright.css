@@ -11,9 +11,3 @@
         line-height: 100%;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .footer__copyright {
-        line-height: 100%;
-    }
-}

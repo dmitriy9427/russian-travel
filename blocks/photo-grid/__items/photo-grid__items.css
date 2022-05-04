@@ -10,7 +10,8 @@
     margin: 0;
     font-size: 0;
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 767px) {
     .photo-grid__items {
         gap: 12px;
     }

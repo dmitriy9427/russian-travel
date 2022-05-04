@@ -8,15 +8,7 @@
     .place__website {
         grid-column: 1;
         grid-row: 2;
-        max-width: 100%;
-        margin: 0 16px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__website {
-        grid-column: 1;
-        grid-row: 2;
         max-width: 288px;
+        margin: 0 16px;
     }
 }
