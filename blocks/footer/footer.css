@@ -24,10 +24,8 @@
 
 @media screen and (max-width: 767px) {
     .footer {
-        max-width: 186px;
-        min-height: 310px;
+        max-width: 288px;
         flex-direction: column;
-        margin-left: 16px;
         align-items: flex-start;
     }
 }
