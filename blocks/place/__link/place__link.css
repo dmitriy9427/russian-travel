@@ -6,9 +6,9 @@
     color: #FFFFFF;
     margin: 0;
     padding: 0;
+    transition: opacity .5s ease-in-out;
 }
 
 .place__link:hover {
     opacity: 0.8;
-    transition: opacity .5s ease-in-out;
 }
