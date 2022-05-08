@@ -18,11 +18,18 @@
 
 @media screen and (max-width: 767px) {
     .place__title {
-        max-width: 288px;
+        max-width: 343px;
         font-size: 32px;
         line-height: 109%;
         row-gap: 32px;
         align-items: start;
         margin: 0 16px;
+
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .place__title {
+        max-width: 288px;
     }
 }

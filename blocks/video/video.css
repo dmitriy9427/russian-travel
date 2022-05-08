@@ -1,0 +1,30 @@
+.video {
+    max-width: 1184px;
+    margin: 102px auto 102px;
+}
+
+@media screen and (max-width: 1279) {
+    .video {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .video {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video {
+        max-width: 343px;
+        margin: 64px auto 0;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video {
+        max-width: 288pxpx;
+        margin-bottom: 64px;
+    }
+}

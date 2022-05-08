@@ -1,0 +1,11 @@
+@media screen and (max-width: 1023px) {
+    .video__title-observatory {
+        margin-bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__title-observatory {
+        margin-bottom: 10px;
+    }
+}

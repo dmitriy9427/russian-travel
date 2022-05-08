@@ -37,12 +37,18 @@
     .place {
         grid-template-columns: 1fr;
         row-gap: 32px;
-        margin-top: 50px;
+        margin: 50px auto 0;
         justify-self: start;
-        max-width: 320px;
+        max-width: 375px;
     }
 
     .place:nth-child(1) {
         margin-top: 64px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .place {
+        max-width: 320px;
     }
 }

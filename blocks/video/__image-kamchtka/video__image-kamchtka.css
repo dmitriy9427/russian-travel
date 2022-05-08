@@ -1,0 +1,53 @@
+.video__image-kamchtka {
+    background-image: url(../../../img/kamchtka.jpg);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 583px;
+    min-height: 323px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+}
+
+.video__image-kamchtka::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1279px) {
+    .video__image-kamchtka {
+        max-width: 456px;
+        min-height: 288px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .video__image-kamchtka {
+        max-width: 352px;
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video__image-kamchtka {
+        max-width: 343px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__image-kamchtka {
+        max-width: 288px;
+    }
+}

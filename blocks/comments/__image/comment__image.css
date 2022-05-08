@@ -1,0 +1,16 @@
+.comment__image {
+    border-radius: 50%;
+    max-width: 97px;
+    min-height: 97px;
+    margin: 0 0 42px;
+    background: #C4C4C4;
+}
+
+@media screen and (max-width:1023px) {
+    .comment__image {
+        grid-row: 1;
+        justify-self: center;
+        row-gap: 16px;
+        margin: 0 0 16px;
+    }
+}
